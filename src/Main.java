@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        System.out.print("тримати розв'язок рівняння виду а*x^2+b*x+c:");
+        System.out.print("Отримати розв'язок рівняння виду: а*x^2+b*x+c\n");
         try {
             System.out.print("Введи коефіцієнт A:");
             double a = sc.nextDouble();
